@@ -1,0 +1,59 @@
+.main {
+  position: relative;
+  background-color: rgb(217, 217, 217);
+  width: 504px;
+  height: 504px;
+}
+
+.circle {
+  border-radius: 50%;
+}
+
+.circle__big {
+  position: absolute;
+  top: -131px;
+  left: -115px;
+  width: 400px;
+  height: 400px;
+  background: rgb(36, 132, 86);
+}
+
+.circle__small {
+  position: absolute;
+  top: 172px;
+  left: 282px;
+  width: 125px;
+  height: 125px;
+  background: rgb(12, 165, 101);
+}
+
+.triangle {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 0;
+  height: 0;
+  border-bottom: 136px solid rgb(206, 54, 7);
+  border-left: 125px solid transparent;
+}
+
+.rectangle {
+  position: absolute;
+  top: 25px;
+  left: 225px;
+  width: 59px;
+  height: 404px;
+  background: rgb(28, 63, 155);
+  transform: rotate(-43deg);
+}
+
+.rounded-rectangle {
+  position: absolute;
+  bottom: -75px;
+  right: 202px;
+  width: 100px;
+  height: 380px;
+  border-radius: 38px;
+  background: rgb(146, 15, 191);
+  transform: rotate(-90deg);
+}
